@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #eaebec;
+      }
+      .panel {
+        background-color: white;
+        border-radius: 25px;
+        width: 100%;
+        height: 40vh;
+      }
+      table {
+        width: 100%;
+        text-align: center;
+      }
+      .panel__content {
+        margin: 2%;
+      }
+      .panel__status--active {
+        background-color: green;
+      }
+      .panel__status--inactive {
+        background-color: rgb(244, 255, 142);
+      }
+      .panel__status--offline {
+        background-color: darkgray;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="panel">
+        <div class="panel__content">
+          <h1>Team Members</h1>
+          <hr />
+          <table>
+            <tr>
+              <th>Name</th>
+              <th>Status</th>
+              <th>Email address</th>
+              <th>Tags</th>
+            </tr>
+            <tr>
+              <td>James Alexander</td>
+              <td class="panel__status--active">active</td>
+              <td>james@example.com</td>
+              <td>Dev, QA</td>
+            </tr>
+            <tr>
+              <td>Lilia Taylor</td>
+              <td class="panel__status--active">active</td>
+              <td>lilia.taylor@example.com</td>
+              <td>Design, Marketing</td>
+            </tr>
+            <tr>
+              <td>Drew Cano</td>
+              <td class="panel__status--inactive">inactive</td>
+              <td>drew.cano@example.com</td>
+              <td>Design, Marketing</td>
+            </tr>
+            <tr>
+              <td>Nate Conor</td>
+              <td class="panel__status--offline">offline</td>
+              <td>nate.conor@example.com</td>
+              <td>Dev</td>
+            </tr>
+            <tr>
+              <td>Melissa Brantley</td>
+              <td class="panel__status--active">active</td>
+              <td>melissa.brantley@example.com</td>
+              <td>Marketing</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
