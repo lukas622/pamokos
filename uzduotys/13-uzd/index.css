@@ -1,0 +1,24 @@
+.grid1 {
+    display: grid;
+    background-color: rgb(228, 197, 159);
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid1__cat {
+    width: 100%;
+    height: 100%;
+}
+
+.grid1__cat--title {
+    background-color: rgb(228, 219, 219);
+    text-align: center;
+    align-content: center;
+}
+.grid1__cat--desc {
+    background-color: rgb(241, 247, 216);
+    text-align: left;
+}
+p {
+    margin-inline: 3%;
+    font-size: xx-large;
+}
+main {text-align: center;}

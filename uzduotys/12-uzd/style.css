@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+    margin-inline: 35%;
+    
+}
+input {
+    margin-top: 3%;
+}
+form {
+    text-align: left;
+}
+span {
+    display: inline-block;
+    width: 150px;
+}

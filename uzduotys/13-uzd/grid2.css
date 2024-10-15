@@ -1,0 +1,16 @@
+.grid2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-inline: 20%;
+}
+main {text-align: center;}
+.grid2__dog {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.grid2__img, .grid2__dog {
+    width: 100%;
+    height: 100%;
+}
