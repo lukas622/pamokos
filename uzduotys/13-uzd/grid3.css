@@ -5,6 +5,7 @@ main {text-align: center;}
     background-color: rgb(228, 197, 159);
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
+    margin-inline: 30%;
 }
 .grid3__dog {
     grid-column-start: 1;

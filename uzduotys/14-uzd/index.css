@@ -1,0 +1,38 @@
+nav {
+    background-color: gray;
+    font-size: x-large;
+}
+.logo {
+    border-radius: 50%;
+    width: 100px;
+    border: 2px solid black;
+    position: relative;
+    left: 4%;
+}
+.nav-links {
+    display: inline;
+    position: relative;
+    left: 4%;
+    top: -40px;
+}
+li {
+    display: inline;
+}
+
+.green-border {
+    border: 20px dotted green;
+    height: 50vh;
+    margin: 10%;
+}
+
+.spacecat, .spacedog {
+    position:relative;
+}
+.spacecat {
+    top: -80vh;
+    left: 20vw;
+}
+.spacedog {
+    top: -20vh;
+    left: 30vw
+}
