@@ -1,0 +1,36 @@
+* {
+    text-align: center;
+    align-content: center;
+}
+.cart, .cart__desc {
+    display: inline-block;
+    text-align: left;
+}
+.cart {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(240, 237, 237);
+    align-content: center;
+    position: relative;
+}
+.cart__desc, .cart__icon, .cart__amount {
+    position: absolute;
+}
+.cart__desc {
+    height: 24px;
+    left: 30%;
+    top: 35%;
+}
+.cart__icon {
+    left: 15%;
+    top: 36%;
+}
+.cart__amount {
+    background-color: darkred;
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    left: 6%;
+    top: 45%;
+    color: white;
+}
