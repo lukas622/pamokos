@@ -2,6 +2,10 @@
     display: grid;
     background-color: rgb(228, 197, 159);
     grid-template-columns: 1fr 1fr 1fr;
+    width: 1000px;
+    height: 500px;
+    margin-inline: auto;
+    margin-bottom: 8%;
 }
 .grid1__cat {
     width: 100%;
@@ -22,3 +26,6 @@ p {
     font-size: xx-large;
 }
 main {text-align: center;}
+ul {
+    display: inline;
+}

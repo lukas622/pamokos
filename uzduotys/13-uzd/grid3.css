@@ -5,7 +5,10 @@ main {text-align: center;}
     background-color: rgb(228, 197, 159);
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
-    margin-inline: 30%;
+    width: 800px;
+    height: 800px;
+    margin-inline: auto;
+    margin-bottom: 0%;
 }
 .grid3__dog {
     grid-column-start: 1;
@@ -16,4 +19,7 @@ main {text-align: center;}
 .grid3 img {
     width: 100%;
     height: 100%;
+}
+ul {
+    display: inline;
 }
