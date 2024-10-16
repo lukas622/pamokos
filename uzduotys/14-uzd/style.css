@@ -21,7 +21,8 @@ li {
 
 .green-border {
     border: 20px dotted green;
-    height: 50vh;
+    width: 1000px;
+    height: 500px;
     margin: 10% auto;
     position:relative;
 }
@@ -30,10 +31,10 @@ li {
     position:absolute;
 }
 .spacecat {
-    top: -20%;
-    left: 50%;
+    top: -140px;
+    left: 200px;
 }
 .spacedog {
-    top: 98%;
-    left: 60%;
+    top: 520px;
+    left: 600px;
 }
