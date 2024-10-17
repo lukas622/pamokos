@@ -4,7 +4,7 @@ main {
 ul {
     display: inline;
     position:relative;
-    top: 150px;
+    top: 50px;
 }
 .grid4 {
     display: grid;
