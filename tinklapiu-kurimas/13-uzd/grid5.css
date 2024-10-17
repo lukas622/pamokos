@@ -1,6 +1,8 @@
 main {text-align: center;}
 ul {
     display: inline;
+    position:relative;
+    top: 250px;
 }
 .grid5 {
     display: grid;
@@ -18,5 +20,5 @@ ul {
 }
 .grid5 img {
     height: 100%;
-    width: auto;
+    width: 100%;
 }

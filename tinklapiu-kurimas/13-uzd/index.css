@@ -8,7 +8,7 @@
     margin-bottom: 8%;
 }
 .grid1__cat {
-    width: 100%;
+    width: 100%s;
     height: 100%;
 }
 
@@ -28,4 +28,6 @@ p {
 main {text-align: center;}
 ul {
     display: inline;
+    position:relative;
+    top: 150px;
 }

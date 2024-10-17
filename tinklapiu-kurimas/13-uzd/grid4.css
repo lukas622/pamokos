@@ -1,6 +1,11 @@
 main {
     text-align: center;
 }
+ul {
+    display: inline;
+    position:relative;
+    top: 150px;
+}
 .grid4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -17,7 +22,4 @@ main {
     grid-column-start: 3;
     grid-row-start: 1;
     grid-row-end: 4;
-}
-ul {
-    display: inline;
 }
