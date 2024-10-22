@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.dog {
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    object-fit: fill;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.cover {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    position:absolute;
+    width: 800px;
+    height: 100px;
+    left: calc(50vw - 400px);
+    top: calc(50vh - 50px);
+    align-content: center;
+}
+.flex-form {
+    display: flex;
+    background-color: white;
+    height: 80px;
+    margin-inline: 2%;
+    text-align: center;
+    justify-content: center;
+}
+.flex-form input {
+    flex: 2;
+}
+.flex-form input[type="submit"] {
+    background-color: rgb(196, 36, 36);
+}
+.flex-form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
