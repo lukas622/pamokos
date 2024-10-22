@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+
+}
+.app-header, .icon-bar {
+    background-color: #EBCC51;
+    height: 180px;
+}
+.app-header {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.app-header h1 {
+    font-size: 3.5em;
+}
+.button {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 180px;
+    height: 80px;
+    font-size: 2.5em;
+    text-align: center;
+    align-content: center;
+    color: white;
+    border-radius: 10px;
+}
+.content {
+    margin: 5%;   
+}
+.content img {
+    float:left;
+}
+
+.icon-bar {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    font-size: 3em;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.icon-bar a {
+    border: 2px solid black;
+    flex:1;
+    align-content: center;
+    text-decoration: solid;
+    color: black;
+}
+.fa {
+    color: white;
+    text-shadow: 4px 4px #000000;
+}
