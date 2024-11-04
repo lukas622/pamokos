@@ -1,3 +1,5 @@
+"use strict";
+
 const cupsToPackage = parseInt(
   prompt("Puodelių, kuriuos reikia supakuoti, skaičius")
 );
