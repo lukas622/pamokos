@@ -1,3 +1,5 @@
+"use strict"
+
 const sienosIlgis = parseFloat(prompt("Sienos ilgis (m)"))
 const sienosAukstis = parseFloat(prompt("Sienos aukštis (m)"))
 const plytosKaina = parseFloat(prompt("Plytos kaina (Lt)"))
