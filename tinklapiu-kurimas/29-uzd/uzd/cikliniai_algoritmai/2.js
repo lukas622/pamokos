@@ -14,4 +14,5 @@ for (stepsAmount; stepsAmount > 0; stepsAmount--) {
 }
 
 console.log(`Suplojimų bus ${claps}`);
+151;
 console.log(`Spragtelėjimų bus ${clicks}`);
