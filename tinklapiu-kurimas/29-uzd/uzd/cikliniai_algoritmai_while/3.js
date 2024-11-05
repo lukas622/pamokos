@@ -17,5 +17,5 @@ while (remainingCandies > 0) {
 }
 
 console.log(
-  `Petriukui saldainių užteks ${days} dienoms ir jam liks ${remainingCandiesLeft} saldainiai25`
+  `Petriukui saldainių užteks ${days} dienoms ir jam liks ${remainingCandiesLeft} saldainiai`
 );
