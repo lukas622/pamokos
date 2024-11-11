@@ -1,0 +1,214 @@
+/* For convenience */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.right-button {
+  visibility: hidden;
+}
+
+.right-button img {
+  visibility: visible;
+}
+
+.dropdown-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.dropdown-content a {
+  padding: 15px;
+}
+
+.dropdown-content,
+.features-container,
+.features-container_feature,
+.footer-container,
+header {
+  background-color: #272b41;
+}
+
+.service-info-container {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.service-info-container_holder {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-content: center;
+  padding: 50px;
+}
+
+.service-info-container_button {
+  background-color: rgb(34, 98, 218);
+  width: 150px;
+  height: 40px;
+  border: 0;
+  border-radius: 25px;
+}
+
+.service-info-container img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  filter: brightness(30%);
+}
+
+.features-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.features-container_feature {
+  text-align: center;
+  align-content: center;
+  padding: 20px;
+}
+
+.features-container_feature img {
+  width: 96px;
+  height: 96px;
+}
+
+.clients-container {
+  background-color: #96c1f0;
+  text-align: center;
+  padding: 20px;
+}
+
+.clients-container_reviewcard {
+  background-color: azure;
+  padding: 40px;
+  text-align: left;
+  border-radius: 15px;
+  margin-top: 40px;
+}
+
+.clients-container_reviewcard h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.clients-container_reviewcard p,
+b {
+  color: gray;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.clients-container_reviewcard img {
+  width: 150px;
+}
+
+.contacts-container {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.contacts-container img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  filter: blur(3px) brightness(110%);
+}
+
+.contacts-container_holder {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  padding: 20px;
+}
+
+.contacts-container_holder h1 {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contacts-container_holder_textinput {
+  margin-top: 20px;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.contacts-container_holder_submit {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(34, 98, 218);
+  width: 200px;
+  height: 40px;
+  border: 0;
+  border-radius: 25px;
+  color: azure;
+}
+
+.contactus-container {
+  text-align: left;
+  padding: 60px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contactus-container button {
+  width: 125px;
+  height: 40px;
+  border: 0;
+  border-radius: 25px;
+  background-color: rgb(34, 98, 218);
+  color: azure;
+}
+
+.footer-container {
+  padding: 40px;
+  text-align: center;
+  color: azure;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-container_flex {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  height: 24px;
+  gap: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.footer-container_flex_img {
+  fill: azure;
+}
+
+@media only screen and (min-width: 768px) {
+  .service-info-container {
+    height: 1200px;
+  }
+  .contacts-container_holder {
+    align-content: center;
+  }
+  .contacts-container {
+    height: 1200px;
+  }
+}

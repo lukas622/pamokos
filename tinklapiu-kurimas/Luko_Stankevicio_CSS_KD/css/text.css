@@ -1,0 +1,25 @@
+.geist-text {
+  font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: azure;
+}
+
+.roboto-slab-text {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: azure;
+  font-size: 2rem;
+}
+
+.funnel-display-text {
+  font-family: "Funnel Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: azure;
+  font-size: 2rem;
+}
