@@ -95,7 +95,9 @@ function renderUserCards(users) {
 
   const htmlViews = users.map((user) => createUserCard(user));
 
-  htmlViews.forEach((view) => USER_CONTAINER.append(view));
+  htmlViews.forEach((view) =>
+    USER_CONTAINER.insertAdjacentHTML("afterend", view)
+  );
 }
 
 const doubledArray = doubleNumbers(numbers);
