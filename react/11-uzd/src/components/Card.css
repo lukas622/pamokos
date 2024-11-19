@@ -2,3 +2,8 @@
   text-align: left;
   align-content: center;
 }
+
+#cardimage {
+  width: 345px;
+  height: 196px;
+}
