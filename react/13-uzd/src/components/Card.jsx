@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./Card.css";
 export default function Card() {
   const [taskDone, setTaskDone] = useState(false);
   return (
@@ -8,10 +9,8 @@ export default function Card() {
           {taskDone ? "Task is done!" : "Task is not done!"}
         </h5>
         <p className="card-text">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius sunt
-          beatae laborum cupiditate expedita, magnam, labore impedit totam
-          animi, ab harum adipisci facilis. Facere error deleniti aspernatur
-          quaerat ad. Quam.
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content
         </p>
         <a
           href="#"
