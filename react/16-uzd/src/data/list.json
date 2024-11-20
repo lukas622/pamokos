@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "HTML",
+    "content": "Aš mokausi HTML",
+    "img": "src/assets/1.png",
+    "status": false
+  },
+  {
+    "id": 2,
+    "title": "CSS",
+    "content": "Aš mokausi CSS",
+    "img": "src/assets/2.png",
+    "status": false
+  },
+  {
+    "id": 3,
+    "title": "JavaScript",
+    "content": "Aš mokausi JavaScript",
+    "img": "src/assets/3.png",
+    "status": false
+  }
+]
