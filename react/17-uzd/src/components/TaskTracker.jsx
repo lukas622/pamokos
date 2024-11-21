@@ -6,15 +6,23 @@ export default function TaskTracker() {
 
   const addTask = () => {
     const task = prompt("Enter the task:");
-    setTask(() => tasks.push(task));
-    console.log(tasks);
+    const newTask = { text: task, completed: false };
+    setTask((tasks) => [...tasks, newTask]);
   };
 
   return (
-    <div>
-      <h1>Task Tracker</h1>
-      <button onClick={addTask}>Add Task</button>
-      <TaskList taskTable={tasks} />
+    <div className="container bg-primary">
+      <h1 className="text-light">Task Tracker</h1>
+      <button
+        className="btn btn-success"
+        onClick={addTask}
+      >
+        Add Task
+      </button>
+      <TaskList
+        taskTable={tasks}
+        sTask={setTask}
+      />
     </div>
   );
 }
