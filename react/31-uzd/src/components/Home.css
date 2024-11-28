@@ -1,0 +1,6 @@
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-content: center;
+}
