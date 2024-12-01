@@ -11,6 +11,7 @@ export default function AddTask() {
 
   const onSubmit = async (values) => {
     try {
+      //console.log(typeof values);
       const response = await fetch("http://localhost:3000/tasks", {
         method: "POST",
         body: JSON.stringify(values),

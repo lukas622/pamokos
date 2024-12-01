@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router";
+import { Link, useNavigate } from "react-router";
 import "./Home.css";
 
 export default function Home() {
   const [data, setData] = useState([]);
+  let navigate = useNavigate();
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -13,7 +14,7 @@ export default function Home() {
       } catch (error) {}
     };
     fetchData();
-  }, []);
+  }, [data]);
 
   return (
     <div className="bg-slate-200 border-2 border-t-0 border-slate-600">
@@ -72,37 +73,28 @@ export default function Home() {
                     href=""
                     onClick={(e) => {
                       e.preventDefault();
-                      setData(
-                        data.filter((tsk) => {
-                          const index = data.indexOf(tsk);
-                          if (tsk.id == task.id) {
-                            data.splice(index, 1);
+
+                      const item = data.filter((item) => task.id == item.id);
+
+                      const updateData = async (data) => {
+                        try {
+                          const response = await fetch(
+                            `http://localhost:3000/tasks/${task.id}`,
+                            {
+                              method: "DELETE",
+                              headers: {
+                                "Content-type": "application/json",
+                              },
+                            }
+                          );
+
+                          if (response.ok) {
+                            setData(data);
                           }
-                        })
-                      );
+                        } catch (error) {}
+                      };
 
-                      //   JSON.stringify(data);
-
-                      //   const updateData = async (data) => {
-                      //     try {
-                      //       const response = await fetch(
-                      //         "http://localhost:3000/tasks",
-                      //         {
-                      //           method: "PUT",
-                      //           body: JSON.stringify(data),
-                      //           headers: {
-                      //             "Content-type": "application/json",
-                      //           },
-                      //         }
-                      //       );
-
-                      //       if (response.ok) {
-                      //         navigate("/");
-                      //       }
-                      //     } catch (error) {}
-                      //   };
-
-                      //   updateData(data);
+                      updateData(data);
                     }}
                   >
                     Remove

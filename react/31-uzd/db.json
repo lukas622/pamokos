@@ -1,50 +1,9 @@
 {
   "tasks": [
     {
-      "id": "07ff",
-      "name": "addw",
-      "date": "2024-11-06"
-    },
-    {
-      "id": "c072",
-      "name": "addwwa",
-      "date": "2024-11-06"
-    },
-    {
-      "id": "083f",
-      "name": "my cool task",
-      "date": "2024-11-27"
-    },
-    {
-      "0": {
-        "id": "07ff",
-        "name": "addw",
-        "date": "2024-11-06"
-      },
-      "1": {
-        "id": "c072",
-        "name": "addwwa",
-        "date": "2024-11-06"
-      },
-      "id": "8b84"
-    },
-    {
-      "0": {
-        "id": "07ff",
-        "name": "addw",
-        "date": "2024-11-06"
-      },
-      "1": {
-        "id": "c072",
-        "name": "addwwa",
-        "date": "2024-11-06"
-      },
-      "2": {
-        "id": "083f",
-        "name": "my cool task",
-        "date": "2024-11-27"
-      },
-      "id": "c2ab"
+      "id": "bf27",
+      "name": "TestTask",
+      "date": "2024-12-01"
     }
   ]
 }
