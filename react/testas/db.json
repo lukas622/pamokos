@@ -1,0 +1,13 @@
+{
+  "books": [
+    {
+      "reserved": false,
+      "name": "Madame Bovary",
+      "author": "teset",
+      "price": "22",
+      "img": "https://images.thegreatestbooks.org/sjgwsul1as680aj6mt68izewif4x",
+      "category": "Fantasy",
+      "id": "496a"
+    }
+  ]
+}
